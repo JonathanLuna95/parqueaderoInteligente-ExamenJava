@@ -28,4 +28,11 @@ public class Motocicleta extends Vehiculo {
 		return horasPermanencia * tarifaHora;
 	}
 
+	@Override
+	public String toString() {
+		return "Motocicleta [cilindraje=" + cilindraje + ", " + super.toString() + "]";
+	}
+	
+	
+
 }

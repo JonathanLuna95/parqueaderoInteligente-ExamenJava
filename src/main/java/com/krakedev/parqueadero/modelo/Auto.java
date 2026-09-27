@@ -28,4 +28,11 @@ public class Auto extends Vehiculo{
 		return total;
 	}
 
+	@Override
+	public String toString() {
+		return "Auto [numeroPuertas=" + numeroPuertas + ", " + super.toString() + "]";
+	}
+	
+	
+
 }
